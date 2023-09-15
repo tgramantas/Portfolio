@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomas Gramantas</title>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/26cb8e9492.js" crossorigin="anonymous"></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="header__menu">
+                <li><a class="header__links" href="#about">About Me</a></li>
+                <li><a class="header__links" href="#projects">Projects</a></li>
+                <li><a class="header__links" href="#contact">Contact</a></li>
+                <li class="header__line"></li>
+                <li><a class="header__media-links" href="https://www.facebook.com/tomas.gramantas.18"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a class="header__media-links" href="https://www.linkedin.com/in/tomas-gramantas-585759110/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a class="header__media-links" href="https://github.com/tgramantas"><i class="fa-brands fa-square-github"></i></a></li>
+                <li class="header__line"></li>
+                <li><a href="./resume.pdf" class="header__resume btn">Resume</a></li>
+            </ul>
+            <button class="header__bar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 9a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9zm0 6.75a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+        </nav>
+    </header>
+    <!--Mobile Nav-->
+    <div class="mobile-nav">
+        <nav>
+            <ul class="mobile-nav__menu">
+                <li>
+                    <a href="#about" class="mobile-nav__links">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects" class="mobile-nav__links">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="mobile-nav__links">Contact</a>
+                </li>
+                <li class="mobile-nav__line"></li>
+                <li class="mobile-nav__media-container">
+                    <a class="mobile-nav__media-links" href="https://www.facebook.com/tomas.gramantas.18"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a class="mobile-nav__media-links" href="https://www.linkedin.com/in/tomas-gramantas-585759110/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="mobile-nav__media-links" href="https://github.com/tgramantas"><i class="fa-brands fa-square-github"></i></a>
+                </li>
+                <li class="mobile-nav__line"></li>
+                <li><a href="./resume.pdf" class="mobile-nav__resume btn">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Mobile Nav End-->
+    <main>
+      <section class="section hero container">
+        <img class="hero__image" src="./profile-pic.png" alt="Profile picture">
+        <h2 class="hero__subtitle">Hi there! My name is</h2>
+        <h1 class="hero__name text-center">Tomas <br>Gramantas</h1>
+        <p class="hero__description text-center">
+                As a <span class="strong italics">part-time student</span>, I dedicate my free hours to learning <span class="strong italics">front-end development</span>, forging a path of <span class="strong italics">academic learning</span> and <span class="strong italics">self-driven digital creativity</span>.
+            </p>
+            <p class="hero__description italics text-center darken">"Fueled by caffeine and VS Code, I'm crafting a future in tech, one line of code at a time."</p>
+            <a class="hero__button btn" href="#projects" >View My Projects</a>
+    </section>
+
+    <section class="section about container" id="about">
+        <div class="about__section-1">
+            <img class="about__image" src="./profile-pic-2.jpg" alt="A picture of me">
+        </div>
+        <div class="about__section-2">
+        <i class="fa-solid fa-user about__icon"></i>
+        <h2 class="about__title">Personal</h2>
+        <p class="about__description text-center">Coming from the picturesque land of Lithuania in 2004, I went on a journey that saw me grow, adapt, and flourish in Northern Ireland which I've grown to love.
+            <br>
+            My interests reflect a vibrant array of hobbies and passions. Whether I'm whipping up delicious meals in the kitchen, diving into virtual worlds through video games, 
+            or immersing myself in the captivating world of anime, I always find something new to add to the list.</p>
+        <i class="fa-solid fa-computer about__icon"></i>
+        <h2 class="about__title">Technical</h2>
+        <p class="about__description text-center">I began my journey into web development through my very first assignment in BTEC, where I was tasked with creating a website with Dreamweaver. 
+            But its outdated UI and many menus left me feeling overwhelmed. <br>Fueled by determination, 
+            I turned to YouTube and started learning HTML and CSS from scratch. With Notepad and an eagerness to experiment, 
+            I found joy in writing code and witnessing instant on-screen changes. <br> This newfound passion led me to delve deeper into web development, 
+            honing my skills on platforms like FreeCodeCamp and The Odin Project. <br> My journey into coding has been an exciting adventure, 
+            and I'm eagerly anticipating the challenges and accomplishments that lie ahead.</p>
+        </div>
+        
+    </section>
+    <section class="section projects container" id="projects">
+        <div class="projects__container">
+            <!--Project 1-->
+            <div class="projects__image-wrap projects__img-1">
+                <img class="projects__image" src="./landing-page.png" alt="">
+            </div>
+            <div class="projects__desc">
+                <h2 class="projects__title">Juice WRLD Tribute Page</h2>
+                <p class="projects__description projects__desc-1 text-center">For this project I created a responsive tribute page for one of my favourite artists, Juice WRLD
+                </p>
+                <a class="projects__button btn" href="">Website</a>
+            </div>
+            <!--Project 2-->
+            <div class="projects__image-wrap projects__img-2">
+                <img class="projects__image" src="./code.png" alt="">
+            </div>
+            <div class="projects__desc">
+                <h2 class="projects__title">More Projects Soon...</h2>
+                <p class="projects__description projects__desc-2 text-center">As I improve on my front-end development skills and come up with new ideas more will be added.
+                </p>
+                <a class="projects__button btn" href="">Coming Soon...</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact container" id="contact">
+        <h2 class="contact__title">Get In Touch</h2>
+        <p class="contact__description text-center">Whether its assistance with a project you have, a business enquiry or just saying hi, my inbox is open so feel free to contact me below. I will get back to you as soon as I can!</p>
+        <a href="mailto:tgramantas@gmail.com" target="_blank" class="contact__button btn">Contact Me</a>
+    </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
